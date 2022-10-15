@@ -2,13 +2,15 @@
     height: 144px;
     width: 100%;
     border-radius: 20px;
-    background-color: #28acfb;
+    background-color: #1313e6;
+    background-image: linear-gradient(to top, rgb(16 19 239), rgb(6 2 61));
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 48px;
     color: #f3f2f2;
     margin-bottom: 32px;
+    
 }
 
 .main-news {
@@ -16,6 +18,7 @@
     display: flex;
     margin-bottom: 32px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .main-news-image {
@@ -29,12 +32,12 @@
 
 .main-news-image img {
     height: 100%;
-    margin-left: -105px;
+    margin-left: -8px;
 }
 
 .main-news-box {
     width: 45%;
-
+    color: #021364;
 }
 
 .news-list {
