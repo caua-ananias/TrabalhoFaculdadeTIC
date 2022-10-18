@@ -3,14 +3,23 @@
 }
 
 body {
-    background: #f3f2f2;
+    background-image: linear-gradient(to right, rgb(6 2 61), rgb(16 19 239), rgb(16 19 239),rgb(6 2 61));
 }
 .header {
     max-width: 1024px;
     display: flex; 
     justify-content: space-between;
-    margin: 32px auto;
+    background-color: #f3f2f2;
+    padding: 16px 32px;
+    margin: 0 auto;
     align-items: center;
+}
+
+main {
+    max-width: 1024px;
+    margin: 0 auto; 
+    padding: 32px;
+    background-color: #f3f2f2;
 }
 
 .page-title {
@@ -47,7 +56,20 @@ body {
     background: rgba(7, 137, 212, 0.1);
     color: rgb(7, 137, 212);
 }
-main {
-    max-width: 1024px;
-    margin: 0 auto; 
+
+@media (max-width: 1088px) {
+	.header {
+        margin: 0 32px;
+    }
+    
+    main {
+        margin: 0 32px; 
+    }
 }
+
+@media (max-width: 888px) {
+    .menus {
+        display: none;
+    }
+}
+
