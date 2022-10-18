@@ -1,0 +1,39 @@
+main {
+    min-height: calc(100vh - 144px);
+} 
+
+.girl-image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.girl-image img {
+    border-radius: 20px;
+}
+
+.news-title {
+    font-size: 46px;
+    margin-bottom: 16px;
+    color: #021364;
+}
+
+.news-p {
+    font-size: 24px;
+    margin-bottom: 16px;
+    color: #021364;
+}
+
+.subtitle-news {
+    font-size: 32px;
+    margin-bottom: 32px;
+    color: #021364;
+}
+
+.topics-news {
+    font-size: 26px;
+    margin-bottom: 16px;
+    color: #021364;
+}
+
+
