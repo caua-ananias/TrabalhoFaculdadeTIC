@@ -36,6 +36,11 @@ main {
     color: #021364;
 }
 
+.menus a {
+    text-decoration: none;
+    color: gray;
+}
+
 .menus ul { 
     display: flex;
     justify-content: center;
@@ -51,6 +56,7 @@ main {
     align-items: center;
     border-radius: 8px;
     cursor: pointer;
+
 }
 .menus li:hover {
     background: rgba(7, 137, 212, 0.1);

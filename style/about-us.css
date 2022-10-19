@@ -1,0 +1,23 @@
+
+.logo-ufgd {
+    justify-content: center;
+    width: 475px;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 84px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.about-me {
+    font-size: 32px;
+    margin-bottom: 16px;
+    color: #021364;
+}
+
+.fonts-link {
+    text-decoration: none;
+    font-size: 26px;
+    margin-top: 16px;
+    display: flex;
+    color: black;
+}
